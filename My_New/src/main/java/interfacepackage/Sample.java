@@ -9,5 +9,6 @@ public interface Sample {
 	int b=20;  //
 	
 	public void add();
-
+	
+	
 }
