@@ -9,9 +9,15 @@ public class ExceptionHandling {
 		int b=a/0;
 		System.out.println(b);
 		}
+	
 		catch(Exception e) 
 		{
 			System.out.println(e);
+		}
+		
+		finally
+		{
+			System.out.println("finally block");
 		}
 	}
 
