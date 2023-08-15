@@ -1,6 +1,7 @@
 package collectioneg;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class CollectionSample2 {
@@ -27,6 +28,12 @@ public class CollectionSample2 {
 		System.out.println(l1.size());
 		boolean b=l1.contains("good");
 		System.out.println(b);
+		
+		Iterator itr=l1.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
 		
 	}
 
